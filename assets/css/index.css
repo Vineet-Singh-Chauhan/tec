@@ -34,7 +34,7 @@ body{
     left:0;
     right:0;
     transition:0.2s;
-    backdrop-filter:blur(30px);
+    
     
 }
 .default-nav{

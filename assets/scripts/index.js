@@ -1,6 +1,6 @@
 const navbar = document.querySelector(".navbar");
 window.onscroll = () =>{
-    if (window.pageYOffset >=(navbar.offsetTop) ) {
+    if (window.pageYOffset >=(navbar.offsetTop+1) ) {
         
         navbar.classList.add("sticky-nav");
         navbar.classList.remove("default-nav");
